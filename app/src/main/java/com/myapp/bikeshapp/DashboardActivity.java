@@ -30,8 +30,17 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
 
         if (v.getId() == R.id.btncal){
             Intent intent = new Intent(DashboardActivity.this,MainActivity.class);
+            startActivity(intent);
         }
-        
+        else if (v.getId() == R.id.btnsi){
+            Intent intent = new Intent(DashboardActivity.this,MainActivity.class);
+            startActivity(intent);
+        }
+        else if (v.getId() == R.id.btncon){
+            Intent intent = new Intent(DashboardActivity.this,MainActivity.class);
+            startActivity(intent);
+        }
+
 
     }
 }
